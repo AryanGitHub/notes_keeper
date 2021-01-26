@@ -64,12 +64,15 @@ public class NoteDisplayController implements Initializable{
 	}
 	
 	private void setItconsOfNote () throws FileNotFoundException {
-		String dir = "A:\\Ayush Pandey\\Desktop\\Code\\eclipse-workspace\\notes_keeper\\src\\main\\resources\\img\\icons\\NoteDisplay\\";
-		setIconForNode(pin, 20,dir+"pin.png");
-		setIconForNode(paint, 20,dir+"paint.png");
-		setIconForNode(delete, 20,dir+"trash.png");
-		setIconForNode(more, 20,dir+"more.png");
-		setIconForNode(copy, 20,dir+"copy.png");
+		
+		 File directory = new File("./src\\main\\resources\\img\\icons\\NoteDisplay\\");
+		 String dir = directory.getAbsolutePath();
+	     setIconForNode(pin, 20,dir+"\\pin.png"); 
+    	 setIconForNode(paint, 20,dir+"\\paint.png");
+         setIconForNode(delete, 20,dir+"\\trash.png");
+         setIconForNode(more, 20,dir+"\\more.png"); 
+       	 setIconForNode(copy,20,dir+"\\copy.png");
+										 
 		/*
 		 * ImageView copyIcon = new ImageView (new Image (new FileInputStream
 		 * (dir+"copy.png"))); copyIcon.setFitHeight(10); ImageView pinIcon = new
