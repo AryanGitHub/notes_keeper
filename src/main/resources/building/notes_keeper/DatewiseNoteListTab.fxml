@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ListView?>
+<?import javafx.scene.control.Tab?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+
+<Tab fx:id="t" text="Datewise" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="building.notes_keeper.DatewiseNotesTab">
+  <content>
+    <AnchorPane minHeight="10.0" minWidth="10.0" prefHeight="180.0" prefWidth="200.0">
+         <children>
+            <VBox prefHeight="0.0" prefWidth="0.0" AnchorPane.bottomAnchor="0.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <HBox prefHeight="25.0" VBox.vgrow="NEVER">
+                     <children>
+                        <Button fx:id="button" mnemonicParsing="false" text="Button" HBox.hgrow="NEVER" />
+                     </children>
+                  </HBox>
+                  <ListView />
+               </children>
+            </VBox>
+         </children></AnchorPane>
+  </content>
+</Tab>
