@@ -7,11 +7,11 @@
 * [Launch](https://github.com/AryanGitHub/notes_keeper#launch)
 * [Others](https://github.com/AryanGitHub/notes_keeper#others)
 
-### ** Introduction **
+### **Introduction**
 notes_keeper is a small javaFX (for now) app, which is intended to be used for keeping notes in an organised manner.
 It’s a training project, my incentive was to make a small project to maintain privacy, security for keeping digital notes for a longer time period (say 7 – 10 years).
 
-### ** Technologies Used **
+### **Technologies Used**
 * Java
 * JavaFX & FXML
 * Json
@@ -19,13 +19,15 @@ It’s a training project, my incentive was to make a small project to maintain 
 * Maven
 
 
-### ** Future Aim ** (TODO for the project)
+### **Future Aim** (TODO for the project)
 Please consider the ETA infinity for now, as I am currently not working on the project.
 In addition, the give list is NOT on any given order.
 
 - [ ] Basic run the project
 
-- [ ] Add Plugins
+- [ ] Add Plugin based features
+
+- [ ] Add Auto Web Embeds for web links
 
 - [ ] Add customizable UI option
 
@@ -33,23 +35,23 @@ In addition, the give list is NOT on any given order.
 
 - [ ] Add tags
 
-- [ ] Add tag auto settings
+  - [ ] Add tag auto settings
 
-- [ ] Add auto add tag
+  - [ ] Add auto add tag
 
 - [ ] Add encryption
 
-- [ ] Add key backups
+  - [ ] Add key backups
 
 - [ ] Add block chain notes adding
 
-- [ ]  Add encrypted keys block chain backup
+  - [ ]  Add encrypted keys block chain backup
 
 
-### ** Launch **
+### **Launch**
 The project has no released launches until yet, sorry!
 
-### ** Others **
+### **Others**
 This readme file is made with help of instructions available on
 
 - https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project ([web archive link](https://web.archive.org/web/20210311131555/https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)) ([Virus Total Results](https://www.virustotal.com/gui/url/4058ee1730c208e905e7584c330742838a66e896c757065601d9f490d2eb6828/detection))
